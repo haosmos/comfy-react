@@ -1,7 +1,14 @@
-const HomePage = (props) => {
+import React from 'react'
+import { Hero, Services, Contacts } from '../components'
+
+const HomePage = () => {
   return (
-      <h2>Home</h2>
+      <main>
+        <Hero/>
+        <Services/>
+        <Contacts/>
+      </main>
   )
-};
+}
 
 export default HomePage;
