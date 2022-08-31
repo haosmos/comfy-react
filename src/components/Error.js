@@ -1,7 +1,11 @@
-const Error = (props) => {
-  return (
-      <h2>Error</h2>
-  )
-};
+import React from 'react'
 
-export default Error;
+const Error = () => {
+  return (
+      <div className="section section-center text-center">
+        <h2>there was an error...</h2>
+      </div>
+  )
+}
+
+export default Error

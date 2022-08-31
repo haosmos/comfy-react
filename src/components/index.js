@@ -7,6 +7,8 @@ import PageHero from './PageHero';
 import Hero from './Hero';
 import Services from './Services';
 import Contacts from './Contacts';
+import FeaturedProducts from './FeaturedProducts';
+import Loading from './Loading';
 
 export {
   Error,
@@ -17,5 +19,7 @@ export {
   PageHero,
   Hero,
   Services,
-  Contacts
+  Contacts,
+  FeaturedProducts,
+  Loading
 }
