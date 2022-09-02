@@ -9,6 +9,10 @@ import Services from './Services';
 import Contacts from './Contacts';
 import FeaturedProducts from './FeaturedProducts';
 import Loading from './Loading';
+import AmountButtons from './AmountButtons';
+import AddToCart from './AddToCart';
+import Stars from './Stars';
+import ProductImages from './ProductImages';
 
 export {
   Error,
@@ -21,5 +25,9 @@ export {
   Services,
   Contacts,
   FeaturedProducts,
-  Loading
+  Loading,
+  AddToCart,
+  Stars,
+  AmountButtons,
+  ProductImages
 }
