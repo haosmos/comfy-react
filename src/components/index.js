@@ -13,6 +13,11 @@ import AmountButtons from './AmountButtons';
 import AddToCart from './AddToCart';
 import Stars from './Stars';
 import ProductImages from './ProductImages';
+import Sort from './Sort';
+import ProductList from './ProductList';
+import Filters from './Filters';
+import GridView from './GridView';
+import ListView from './ListView';
 
 export {
   Error,
@@ -29,5 +34,10 @@ export {
   AddToCart,
   Stars,
   AmountButtons,
-  ProductImages
+  ProductImages,
+  Sort,
+  ProductList,
+  Filters,
+  GridView,
+  ListView
 }
