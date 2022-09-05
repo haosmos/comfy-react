@@ -74,7 +74,12 @@ const SingleProductPage = () => {
               <p className="desc"> {description}</p>
               <p className="info">
                 <span>Available : </span>
-                {stock > 0 ? `${stock} In stock` : 'out of stock'}
+                <span className="info__stock-num">
+                  {stock > 0 ? `${stock}` : ''}
+                  {stock > 0 ? ' In stock' : 'out of stock'}
+                </span>
+                {/*{stock > 0 ? `${stock} In stock` : 'out of stock'}*/}
+                {/*{stock > 0 ? `${stock} In stock` : 'out of stock'}*/}
               </p>
               <p className="info">
                 <span>SKU : </span>
@@ -118,6 +123,11 @@ const Wrapper = styled.main`
     span {
       font-weight: 700;
     }
+
+    .info__stock-num {
+      color: red;
+    }
+
   }
 
   @media (min-width: 992px) {

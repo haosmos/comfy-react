@@ -32,9 +32,9 @@ const Wrapper = styled.section`
   row-gap: 3rem;
 
   img {
-    width: 100%;
+    //width: 100%;
     display: block;
-    //width: 300px;
+    width: 300px;
     height: 200px;
     object-fit: cover;
     border-radius: var(--radius);

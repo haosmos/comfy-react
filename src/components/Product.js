@@ -29,7 +29,9 @@ const Wrapper = styled.article`
   }
 
   img {
+    //width: 100%;
     width: 100%;
+    //height: 200px;
     display: block;
     object-fit: cover;
     border-radius: var(--radius);
