@@ -18,6 +18,10 @@ import ProductList from './ProductList';
 import Filters from './Filters';
 import GridView from './GridView';
 import ListView from './ListView';
+import CartContent from './CartContent';
+import CartColumns from './CartColumns';
+import CartItem from './CartItem';
+import CartTotals from './CartTotals';
 
 export {
   Error,
@@ -39,5 +43,9 @@ export {
   ProductList,
   Filters,
   GridView,
-  ListView
+  ListView,
+  CartContent,
+  CartColumns,
+  CartItem,
+  CartTotals
 }
