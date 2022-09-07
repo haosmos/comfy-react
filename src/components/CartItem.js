@@ -62,6 +62,7 @@ const Wrapper = styled.article`
     height: 100%;
     display: grid;
     grid-template-columns: 75px 125px;
+    grid-auto-rows: 125px;
     align-items: center;
     text-align: left;
     gap: 1rem;
@@ -178,6 +179,7 @@ const Wrapper = styled.article`
       height: 100%;
       display: grid;
       grid-template-columns: 100px 200px;
+      grid-auto-rows: 75px;
       align-items: center;
       gap: 1rem;
       text-align: left;
