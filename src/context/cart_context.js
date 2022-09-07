@@ -25,7 +25,7 @@ const initialState = {
   shipping_fee: 534,
 }
 
-const CartContext = React.createContext()
+const CartContext = React.createContext();
 
 export const CartProvider = ({ children }) => {
   const [ state, dispatch ] = useReducer(reducer, initialState)
