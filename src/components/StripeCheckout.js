@@ -13,7 +13,7 @@ import { useUserContext } from '../context/user_context';
 import { formatPrice } from '../utils/helpers';
 import { useHistory } from 'react-router-dom';
 
-const promise = loadStripe(process.env.REACT_APP_STRIPE_PUBLIC_KEY);
+const promise = loadStripe(`${process.env.REACT_APP_STRIPE_PUBLIC_KEY}`);
 
 const CheckoutForm = () => {
   const { cart, total_amount, shipping_fee, clearCart } = useCartContext();
@@ -54,9 +54,10 @@ const CheckoutForm = () => {
           JSON.stringify({ cart, shipping_fee, total_amount })
       )
       
-      setClientSecret(data.clientSecret)
+      setClientSecret(data.clientSecret);
+      console.log(data);
     } catch (error) {
-      // console.log(error.response)
+      console.log(error.response);
     }
   }
   
