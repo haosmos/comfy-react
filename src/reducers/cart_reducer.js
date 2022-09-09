@@ -60,7 +60,7 @@ const cart_reducer = (state, action) => {
           if (newAmount > item.max) {
             newAmount = item.max;
           }
-          console.log(item);
+          // console.log(item);
           return { ...item, amount: newAmount };
         }
         
@@ -70,7 +70,7 @@ const cart_reducer = (state, action) => {
           if (newAmount < 1) {
             newAmount = 1;
           }
-          console.log(item);
+          // console.log(item);
           return { ...item, amount: newAmount };
         }
       }
